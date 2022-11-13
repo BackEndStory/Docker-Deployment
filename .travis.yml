@@ -17,13 +17,13 @@ after_success:
 
 deploy :
   edge : true
-  provider : elasticbeantalk
+  provider : elasticbeanstalk
   region : ap-northeast-2
-  app : docker-react-app
+  app : docker-react-real
 
-  env : Dockerreactapp-env-1
+  env : Dockerreactreal-env
   bucket_name : elasticbeanstalk-ap-northeast-2-469579819621
-  bucket_path : docker-react-app
+  bucket_path : docker-react-real
   on :
      branch : master
 
