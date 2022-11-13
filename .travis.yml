@@ -19,11 +19,11 @@ deploy :
   edge : true
   provider : elasticbeanstalk
   region : ap-northeast-2
-  app : docker-react-real
+  app : docker-re-re
 
-  env : Dockerreactreal-env-1
+  env : Dockerrere-env
   bucket_name : elasticbeanstalk-ap-northeast-2-469579819621
-  bucket_path : docker-react-real
+  bucket_path : docker-re-re
   on :
      branch : master
 
