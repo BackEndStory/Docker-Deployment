@@ -21,7 +21,7 @@ deploy :
   region : ap-northeast-2
   app : docker-react-real
 
-  env : Dockerreactreal-env
+  env : Dockerreactreal-env-1
   bucket_name : elasticbeanstalk-ap-northeast-2-469579819621
   bucket_path : docker-react-real
   on :
