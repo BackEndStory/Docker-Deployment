@@ -1,18 +1,30 @@
-version: '3'
+version: "3"
+
 services:
+
   react:
+
     build: 
-      context: ./
+
+      context: .
+
       dockerfile: Dockerfile
+
     ports:
-       - "80:80"
+
+     - '80:80'
+
     volumes:
-       - /usr/src/app/node_modules
-       - ./:/usr/src/app
-    
+
+     - /usr/src/app/node_modules
+
+     - ./:/usr/src/app
     environment:
       - CHOKIDAR_USEPOLLING=true
+
     stdin_open: true
+    
+    
     
 
     
