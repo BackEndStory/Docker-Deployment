@@ -19,11 +19,11 @@ deploy :
   edge : true
   provider : elasticbeanstalk
   region : ap-northeast-2
-  app : docker-l
+  app : docker-lll
 
-  env : Dockerl-env
+  env : Dockerlll-env
   bucket_name : elasticbeanstalk-ap-northeast-2-469579819621
-  bucket_path : docker-l
+  bucket_path : docker-lll
   on :
      branch : master
 
